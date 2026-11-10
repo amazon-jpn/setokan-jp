@@ -34,7 +34,9 @@ p{margin:0;text-wrap:pretty;line-break:strict}
 .ph{display:inline-block}   /* 見出しを文節で改行させるための区切り */
 
 /* ---------- ヘッダー（追従しない） ---------- */
-.site-header{width:var(--wrap);margin:0 auto;padding:18px 0 14px}
+.site-header{width:var(--wrap);margin:0 auto;padding:18px 0 14px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+/* 広告であることの表示（PR） */
+.pr-label{display:inline-block;border:1px solid currentColor;color:var(--muted);font-family:var(--sans);font-size:.72rem;font-weight:700;line-height:1;letter-spacing:.08em;padding:4px 6px 3px;border-radius:2px}
 .brand{display:inline-flex;align-items:center;gap:10px}
 .brand-mark{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--rose);color:#fff;font-family:var(--sans);font-weight:700;font-size:15px;line-height:1}
 .brand-name{font-family:var(--serif);font-weight:600;font-size:1.15rem;letter-spacing:.04em}
@@ -157,6 +159,7 @@ p{margin:0;text-wrap:pretty;line-break:strict}
 /* ---------- フッター ---------- */
 .site-footer{text-align:center;padding:56px 20px calc(140px + var(--safe-b))}
 .site-footer p{margin-top:12px;color:var(--muted);font-size:.9rem}
+.site-footer .pr-label{margin-left:10px;vertical-align:middle}
 
 /* ---------- 追従 CTA ---------- */
 .sticky{position:fixed;left:50%;bottom:calc(24px + var(--safe-b));z-index:50;width:min(420px,calc(100% - 32px));
