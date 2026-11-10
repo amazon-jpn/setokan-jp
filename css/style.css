@@ -160,6 +160,7 @@ p{margin:0;text-wrap:pretty;line-break:strict}
 .site-footer{text-align:center;padding:56px 20px calc(140px + var(--safe-b))}
 .site-footer p{margin-top:12px;color:var(--muted);font-size:.9rem}
 .site-footer .pr-label{margin-left:10px;vertical-align:middle}
+.site-footer .associate-note{margin-top:18px;font-size:.78rem;line-height:1.7}
 
 /* ---------- 追従 CTA ---------- */
 .sticky{position:fixed;left:50%;bottom:calc(24px + var(--safe-b));z-index:50;width:min(420px,calc(100% - 32px));
